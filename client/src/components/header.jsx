@@ -12,7 +12,7 @@ const Header = () => {
         <button className="header-container__lup">
           <i className='bx bx-search-alt' ></i>
         </button>
-        <input className="header-container__input" type="text" placeholder="Search in HyperUpload" className="header__search">
+        <input className="header-container__input" type="text" placeholder="Search in HyperUpload">
         
         </input>
         <button className="header-container__filter">
