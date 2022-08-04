@@ -47,14 +47,24 @@
 .header-container__filter:hover{
   background-color: var(--hover-color)
 }
+.header-container__lup:active,
+.header-container__filter:active{
+  border: none;
+}
 .header-container__input{
   width: 700px;
   height: 50px;
   background-color: var(--bg-color2);
   border: none;
   font-size: 20px;
+  color: var(--text-color);
 }
 .header-container__input:focus{
+  background-color: var(--bg-color);
+  border: none;
+  height: 40px;
+}
+.header-container__input:active{
   background-color: var(--bg-color);
   border: none;
   height: 40px;
