@@ -1,0 +1,8 @@
+:root {
+  --bg-color:var(--bg-color);
+  --text-color:var(--text-color);
+  --hover-color:var(--hover-color);
+  --active-color:var(--active-color);
+  --hover-active-color:var(--hover-active-color);
+  --logo-color:var(--active-color);
+}
