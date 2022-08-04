@@ -1,0 +1,10 @@
+.log-card {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 3px 4px 4px 3px rgba(149, 149, 149, 0.343);
+}
