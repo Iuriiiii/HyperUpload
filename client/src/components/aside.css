@@ -1,0 +1,76 @@
+.aside-container{
+  height: 100vh;
+  width: 265px;
+  padding-top: 80px;
+  border-right: solid 1px var(--hover-color);
+}
+.aside__button-add{
+  margin: 15px;
+  border-radius: 30px;
+  color: var(--text-color);
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--bg-color);
+  box-shadow: 0px 0px 2px 3px var(--bg-color2);
+}
+.aside__button-add:hover{
+  background-color: var(--bg-color2)
+}
+.aside__list{
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  width: 250px;
+  border-bottom: solid 1px var(--hover-color);
+}
+.aside__list-item,
+.aside__list-button{
+  width: 250px;
+  height: 45px;
+  cursor: pointer;
+}
+.aside__list-button{
+  border-radius: 0 30px 30px 0; 
+  border: none;
+  color: var(--text-color);
+  text-align: start;
+  padding-left: 25px;
+  background-color: var(--bg-color);
+}
+.aside__list-button:hover{
+  background-color: var(--bg-color2)
+}
+.aside__list-button i{
+  padding: 8px;
+  font-size: 20px;
+}
+.aside__list-text{
+  text-align: center;
+  color: var(--text-color);
+  margin: 10px 0;
+  cursor: pointer;
+}
+.aside__list-storage{
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  width: 250px;
+}
+.aside__list-bstorage{
+  margin: 15px;
+  border-radius: 5px;
+  color: var(--active-text-color);
+  font-size: 15px;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--bg-color);
+  box-shadow: 0px 0px 2px 3px var(--bg-color2);
+}
+.aside__list-bstorage:hover{
+  background-color: var(--bg-color2)
+}

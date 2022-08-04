@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Aside from './components/aside'
 import Header from './components/header'
 
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Aside />
     </div>
   )
 }
