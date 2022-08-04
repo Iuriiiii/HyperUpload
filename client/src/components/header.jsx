@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header-container">
       <div className="header__logo">
-        <img src="../assets/logo.png" alt="HyperUpload" />
+        <img src="../src/assets/logo.png" alt="HyperUpload" />
       </div>
       <div className="header__search-container">
         <button className="header-container__lup">
@@ -20,7 +20,7 @@ const Header = () => {
         </button>
       </div>
       <div className="header__user">
-        <img src="../assets/user.png" alt="Img User"/>
+        <img src="../src/assets/user.png" alt="Img User"/>
       </div>
     </header>
   )
