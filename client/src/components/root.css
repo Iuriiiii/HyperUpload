@@ -5,28 +5,5 @@
   --active-text-color:#0046ad;
   --bg-active-color:#5a9de5;
   --logo-color:#0756c0;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-
-.color1 { #565c7f };
-.color2 { #6e7397 };
-.color3 { #858bb0 };
-.color4 { #9da2c8 };
-.color5 { #b4b9e0 };
-
-.color1 { #4fd5d8 };
-.color2 { #3bc3c6 };
-.color3 { #28b0b4 };
-.color4 { #149ea1 };
-.color5 { #008b8f };
-
-.color1 { #3db98f };
-.color2 { #2ea77e };
-.color3 { #1f956e };
-.color4 { #0f835d };
-.color5 { #00714c };
-
-.color1 { #1b86fa };
-.color2 { #1476e7 };
-.color3 { #0e66d4 };
-.color4 { #0756c0 };
-.color5 { #0046ad };
