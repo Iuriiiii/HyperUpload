@@ -1,0 +1,10 @@
+# Se pueden enlistar todos y cada uno de los archivos
+# que se subieron utilizando el endpoint "api/v1/files"
+
+# Exactamente cómo en este ejemplo.
+
+GET http://127.0.0.1:81/api/v1/files HTTP/1.1
+content-type: application/json
+
+{
+}

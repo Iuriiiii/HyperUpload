@@ -1,0 +1,11 @@
+# El primer paso es registrarse en la página, el endpoint es /api/v1/users
+
+POST http://127.0.0.1:81/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+    
+    "user": "username", /* Alfanumérico, no más de 60 carácteres */
+    "email": "email@gmail.com", /* Email, con formato válido */
+    "password": "password" /* Contraseña */
+}

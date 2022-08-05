@@ -1,0 +1,8 @@
+POST http://127.0.0.1:81/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+    "user": "Iuri",
+    "email": "alexandercasasnqn@gmail.com",
+    "password": "abecedario"
+}

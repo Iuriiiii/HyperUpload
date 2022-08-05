@@ -1,0 +1,6 @@
+GET http://127.0.0.1:81/api/v1/users/name/files HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibmFtZSIsImlkIjo1LCJpYXQiOjE2NTk2NTgyNzV9.4IicW2zYERf0VrzpC7TfS1YQHDQp-orMH1NjJRdGnnA
+
+{
+}

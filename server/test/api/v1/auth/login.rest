@@ -1,0 +1,7 @@
+POST http://127.0.0.1:81/api/v1/auth/login HTTP/1.1
+content-type: application/json
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSXVyaSIsImlkIjo3LCJpYXQiOjE2NTk2ODA4MTcsImV4cCI6MTY2MDI4NTYxN30.j2-eXnC2rZADP10PIpJ7uy9tv265KHq3nXGVxsOvNF4
+{
+    "user": "Iuri",
+    "password": "abecedario"
+}

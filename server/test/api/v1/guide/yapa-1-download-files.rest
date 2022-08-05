@@ -1,0 +1,15 @@
+# Para que esto funcione se deben poder descargar
+# los archivos subidos ¿no? para esto tenemos 2
+# endpoints, el "estricto" o el "feo": "api/v1/files/"
+# seguido del "access" del archivo.
+
+# No es necesario establecer ninguna autorización.
+
+# El segundo endpoint es "/" seguido del "access".
+# Ej: https://127.0.0.1:81/EL-ACCESS-DEL-ARCHIVO
+
+GET http://127.0.0.1:81/api/v1/files/EL-ACCESS-DEL-ARCHIVO HTTP/1.1
+content-type: application/json
+
+{
+}

@@ -1,0 +1,29 @@
+# Una vez iniciada la sesión se pueden subir archivos
+# el endpoint es /api/v1/files
+# Si se quisiera subir un archivo con HTML vanilla, podrías usar
+
+#<form action="/profile" method="post" enctype="multipart/form-data">
+#  <input type="file" name="hyperfile" />
+#</form>
+
+# Recordando el atributo "enctype", el cuál es muy importante.
+# Para más información: https://github.com/expressjs/multer
+
+# La cabecera "Authorization" es de caracter obligatorio y su formato
+# debe ser exactamente igual al que se muestra en el ejemplo,
+# el JWT Key obtenido al iniciar sesión debe reemplazar "TU-JWT-KEY-AQUI".
+
+# ¡IMPORTANTE!
+# El nombre del <input type="file"> debe ser "hyperfile", de otra
+# manera no va a funcionar.
+
+POST http://127.0.0.1:81/api/v1/files HTTP/1.1
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer TU-JWT-KEY-AQUI
+
+--boundary
+Content-Disposition: form-data; name="hyperfile"; filename="filename.jpg"
+Content-Type: image/jpeg
+
+< ./image.jpg
+--boundary--

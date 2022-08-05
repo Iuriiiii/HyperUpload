@@ -1,0 +1,15 @@
+# Obviamente se pueden eliminar archivos, para esto utilizamos
+# el endpoint "api/v1/files/" seguido del "access" del archivo.
+
+# Esa información es devuelta al enlistar los archivos.
+
+# La cabecera "Authorization" es de caracter obligatorio y su formato
+# debe ser exactamente igual al que se muestra en el ejemplo,
+# el JWT Key obtenido al iniciar sesión debe reemplazar "TU-JWT-KEY-AQUI".
+
+DELETE http://127.0.0.1:81/api/v1/files/EL-ACCESS-DEL-ARCHIVO HTTP/1.1
+content-type: application/json
+Authorization: Bearer TU-JWT-KEY-AQUI
+
+{
+}
